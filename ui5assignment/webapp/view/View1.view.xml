@@ -1,0 +1,31 @@
+<mvc:View
+	controllerName="trainingui5project2.controller.View1"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m"
+>
+	<Page
+		id="page"
+		title="{i18n>title}"
+	>
+		<FeedInput
+			id="_IDGenFeedInput1"
+			post="onPost"
+		/>
+		<List
+			id="_IDGenList1"
+			showSeparators="Inner"
+			items="{/results}"
+		>
+			<FeedListItem
+				id="_IDGenFeedListItem1"
+				sender="{Author}"
+				info="{Type}"
+				timestamp="{Date}"
+				text="{Text}"
+				type="Navigation"
+				press="onMsgPress"
+			/>
+		</List>
+	</Page>
+</mvc:View>
