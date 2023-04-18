@@ -68,7 +68,7 @@ sap.ui.define([
                         id: "idDialog",
                         title: "Message Details",
                         content: new Text({
-                            text: "Author Name : {Author} " + "\n" + "Message : {Text}" + "\n" + "Date : {Date}" + "\n" + "Type : {Type}",
+                            text: "Author : {Author} " + "\n" + "Message : {Text}" + "\n" + "Date : {Date}" + "\n" + "Type : {Type}",
 
                         })
                     });
